@@ -10,7 +10,7 @@ def generar_serie_fibonacci_digitos(n):
          
      
 
-    return fibonacci
+    # return fibonacci
 
 
 n = int(input("Ingrese la cantidad de dígitos de la serie de Fibonacci que desea generar: "))
