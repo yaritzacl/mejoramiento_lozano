@@ -4,7 +4,7 @@ def seriefibo(numero):
     while numero>0:
         fibo.append(a)
         a,b=b,a+b
-        numero-=1
+        numero=numero-1
         print (fibo)
     
 t=seriefibo(numero=int(input("ingrese el numero:")))
